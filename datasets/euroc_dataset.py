@@ -13,7 +13,7 @@ from icecream import ic
 import open3d as o3d
 import cv2
 
-from utils.utils import *
+from nerfslam_utils.utils import *
 from datasets.dataset import * 
 
 class EurocDataset(Dataset):

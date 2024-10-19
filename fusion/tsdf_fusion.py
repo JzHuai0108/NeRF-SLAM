@@ -5,9 +5,9 @@ import open3d as o3d
 
 from lietorch import SE3
 
-from utils.flow_viz import viz_depth_map, viz_depth_sigma
-from utils.utils import *
-from utils.open3d_pickle import _MeshTransmissionFormat
+from nerfslam_utils.flow_viz import viz_depth_map, viz_depth_sigma
+from nerfslam_utils.utils import *
+from nerfslam_utils.open3d_pickle import _MeshTransmissionFormat
 
 import cv2
 import torch

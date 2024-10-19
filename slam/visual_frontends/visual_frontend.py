@@ -14,7 +14,7 @@ from torch import nn
 import torch.nn.functional as F
 from torch_scatter import scatter_sum
 
-from utils.flow_viz import *
+from nerfslam_utils.flow_viz import *
 
 import networks.geom.projective_ops as pops
 from networks.modules.corr import CorrBlock, AltCorrBlock

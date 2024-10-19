@@ -7,7 +7,7 @@ import numpy as np
 
 import matplotlib as mpl # for colormaps
 
-from utils.utils import *
+from nerfslam_utils.utils import *
 
 from lietorch import SE3
 

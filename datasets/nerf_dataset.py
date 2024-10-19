@@ -10,7 +10,7 @@ import numpy as np
 from tqdm import tqdm
 
 from datasets.dataset import * 
-from utils.utils import *
+from nerfslam_utils.utils import *
 
 class NeRFDataset(Dataset):
     def __init__(self, args, device):

@@ -16,7 +16,7 @@ class GuiModule(MIMOPipelineModule):
 
     def initialize_module(self):
         if self.name == "Open3DGui":
-            from gui.open3d_gui import Open3dGui
+            from nerfslam_gui.open3d_gui import Open3dGui
             self.gui = Open3dGui(self.args, self.device)
         elif self.name == "DearPyGui":
             raise NotImplementedError

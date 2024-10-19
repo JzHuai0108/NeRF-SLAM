@@ -8,7 +8,7 @@ import cv2
 
 from icecream import ic
 
-from utils.flow_viz import *
+from nerfslam_utils.flow_viz import *
 
 import os
 import sys
@@ -24,7 +24,7 @@ sys.path += [os.path.dirname(pyd) for pyd in glob.iglob(
 import pyngp as ngp
 import pandas
 
-from utils.utils import *
+from nerfslam_utils.utils import *
 
 class NerfFusion:
     def __init__(self, name, args, device) -> None:
