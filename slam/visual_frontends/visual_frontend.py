@@ -21,7 +21,7 @@ from networks.modules.corr import CorrBlock, AltCorrBlock
 
 import lietorch
 from lietorch import SE3
-import droid_backends
+import droid_backends_nerf_slam as droid_backends
 
 import gtsam
 from gtsam import (HessianFactor)
